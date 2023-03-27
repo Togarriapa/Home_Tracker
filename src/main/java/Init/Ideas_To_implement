@@ -1,0 +1,28 @@
+Features:
+
+Expenses:
+    -Insertion
+    -Deletion
+    -Edition
+    -Tracking
+    -Analysis
+
+Grocerys:
+    -Add, Delete, Edit
+    -Pantry Listing
+    -Expiration date tracking*
+    -Price tracking
+    -Stock Tracking
+
+Chores:
+    -ToDoLists
+    -Schedule
+    -Calendar
+    -Notification*
+
+Add-Ons:
+    -CodeBar Scanning
+    -Notification*
+    -Multiplatform
+    -Multiuser
+    -Google Calendar and Task Implementation
