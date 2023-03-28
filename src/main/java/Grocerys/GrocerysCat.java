@@ -1,4 +1,34 @@
 package Grocerys;
 
 public enum GrocerysCat {
+
+    FRESH_VEGETABLES,
+    FROZEN_VEGETABLES,
+    CANED_VEGETABLES,
+    COFFEE_RELATED,
+    DIPS_SOUCES,
+    JUICES,
+    SOFT_DRINKS,
+    ALCOOLIC_BEVERAGES,
+    PET_FOOD,
+    PET_WETFOOD,
+    PET_TREATS,
+    EGGS,
+    BREAD,
+    VEGETABLE_PROTEIN,
+    ICE,
+    FRESH_FRUIT,
+    FROZEN_FRUIT,
+    SNACKS,
+    GRAINS_PASTA,
+    BREACKFAST,
+    ICE_CREAM,
+    FLOUR,
+    SUGAR,
+    BAKING_SODA,
+    SALT,
+    SPICES,
+    OTHER
+
+
 }
