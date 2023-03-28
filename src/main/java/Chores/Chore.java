@@ -1,6 +1,6 @@
 package Chores;
 
-import Interfaces.GeneralState;
+import GeneralInterfaces.GeneralState;
 
 public class Chore implements GeneralState {
 }

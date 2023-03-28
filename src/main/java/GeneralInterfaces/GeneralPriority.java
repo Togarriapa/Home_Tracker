@@ -1,4 +1,4 @@
-package Interfaces;
+package GeneralInterfaces;
 
 public interface GeneralPriority {
 }

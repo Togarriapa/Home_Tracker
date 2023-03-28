@@ -1,6 +1,6 @@
 package ToDoList;
 
-import Interfaces.GeneralPriority;
+import GeneralInterfaces.GeneralPriority;
 
 public enum TaskPriority implements GeneralPriority {
 

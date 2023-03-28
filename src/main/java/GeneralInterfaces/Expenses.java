@@ -1,4 +1,4 @@
-package Interfaces;
+package GeneralInterfaces;
 
 import java.sql.Date;
 

@@ -1,4 +1,23 @@
 package Finances;
 
 public enum FinancialCat {
+
+    BILLS,
+    CLOTHES_SHOES,
+    CONSTRUCTION,
+    FURNITURE,
+    GAS,
+    GROCERYS,
+    HOME_IMPROVEMENT,
+    MEDICAL_BILLS_MEDS,
+    PETS,
+    PERSONAL,
+    SELF_CARE,
+    TRANSPORTS,
+    VACATIONS,
+    VEHICLE,
+    WORK_EXPENSES,
+    RESTAURANT,
+    GOING_OUT
+
 }

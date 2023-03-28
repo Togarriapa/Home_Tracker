@@ -1,6 +1,6 @@
 package ToDoList;
 
-import Interfaces.GeneralState;
+import GeneralInterfaces.GeneralState;
 
 public class Task implements GeneralState {
 }

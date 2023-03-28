@@ -1,6 +1,6 @@
 package Chores;
 
-import Interfaces.GeneralPriority;
+import GeneralInterfaces.GeneralPriority;
 
 public enum ChorePriority implements GeneralPriority {
 

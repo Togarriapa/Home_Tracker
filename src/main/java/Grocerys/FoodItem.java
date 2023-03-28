@@ -1,7 +1,5 @@
 package Grocerys;
 
-import Interfaces.Perishable;
-
 import java.sql.Date;
 
 public class FoodItem extends Grocery implements Perishable {
