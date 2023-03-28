@@ -29,7 +29,7 @@
             <artifactId>prompt-view</artifactId>
             <version>0.2.1-SNAPSHOT</version>
             <scope>system</scope>
-            <systemPath>D:/Files/Projectos/Home_Econ/Home_Tracker/src/lib/prompt-view.jar</systemPath>
+            <systemPath>D:/Files/Projectos/Home_Tracker/src/lib/prompt-view.jar</systemPath>
         </dependency>
 
         <dependency>
