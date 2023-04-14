@@ -4,7 +4,11 @@ import Grocerys.*;
 
 public class GroceryFactory {
 
-    public static Grocery createGrocery(PerishableCat isItPerishable){
+    public static Grocery createGrocery(){
+
+        //Prompt if perishable
+
+
         switch(isItPerishable){
             case PERISHABLE:
                 return new FoodItem();
