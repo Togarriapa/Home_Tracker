@@ -6,8 +6,7 @@ import Factory.StorageFactory;
 import Factory.TaskFactory;
 import Grocerys.Grocery;
 import ToDoList.Task;
-import org.academiadecodigo.bootcamp.Prompt;
-import org.springframework.beans.factory.annotation.Autowired;
+
 
 import java.util.*;
 
@@ -36,7 +35,7 @@ public class House {
 
     private void addChore(){
 
-        choresList.add(ChoreFactory.getNewChore())
+        choresList.add(ChoreFactory.getNewChore());
 
     }
 

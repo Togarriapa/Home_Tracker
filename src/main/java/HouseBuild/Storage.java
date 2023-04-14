@@ -29,12 +29,12 @@ public class Storage {
     public Grocery useRemoveGrocery(int index){ //Removes Grocery from the list while returning it.
 
         Grocery groceryToBeRemoved = storedGrocerys.get(index);
-        storedGrocerys.remove(index)
+        storedGrocerys.remove(index);
         return groceryToBeRemoved;
 
     }
 
-    public void listGrocerys(){ //Lists all Grocerys from the list and it's expirationDates.
+    public void listGrocerys(){ //Lists all Grocerys from the list, and it's expirationDates.
         int index = 0;
         System.out.println("Groceries Stored in " + name + ":");
         for (Grocery grocery: storedGrocerys) {
