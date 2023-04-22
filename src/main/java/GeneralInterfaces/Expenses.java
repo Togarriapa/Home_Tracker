@@ -1,5 +1,7 @@
 package GeneralInterfaces;
 
+import Grocerys.GrocerysCat;
+
 import java.sql.Date;
 
 public interface Expenses {
@@ -7,8 +9,8 @@ public interface Expenses {
     void setPrice(double price);
     Double getPrice();
 
-    void setCategory(String category);
-    String getCategory();
+    void setCategory(GrocerysCat category);
+    GrocerysCat getCategory();
 
     void setPurchaseDate(Date purchaseDate);
     Date getPurchaseDate();

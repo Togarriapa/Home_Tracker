@@ -1,5 +1,7 @@
 package Grocerys;
 
+import GeneralInterfaces.Expenses;
+
 import java.sql.Date;
 
 public abstract class Grocery {

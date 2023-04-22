@@ -8,6 +8,8 @@ public class Main {
 
         House house = new House();
 
+        house.run();
+
     }
 
 
