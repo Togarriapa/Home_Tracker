@@ -6,17 +6,15 @@ import Factory.StorageFactory;
 import Factory.TaskFactory;
 import Grocerys.Grocery;
 import ToDoList.Task;
-
-
 import java.util.*;
 
-public class House {
+public class House implements Runnable {
 
     private List<Grocery> groceryLists;
     private List<Storage> storages;
     private List<Chore> choresList;
     private List<Task> taskList;
-
+    private boolean keepRunning;
 
     public House(){
 
@@ -24,24 +22,45 @@ public class House {
         storages = new ArrayList<Storage>();
         choresList = new ArrayList<Chore>();
         taskList = new ArrayList<Task>();
+        keepRunning = true;
 
     }
 
-    private void addStorage(){
+    public void addStorage(){
 
         storages.add(StorageFactory.getNewStorage());
 
     }
 
-    private void addChore(){
+    public void addChore(){
 
         choresList.add(ChoreFactory.getNewChore());
 
     }
 
-    private void addTask(){
+    public void addTask(){
 
         taskList.add(TaskFactory.getNewTask());
+
+    }
+
+    public void addGroceryToList(Grocery grocery){
+
+        groceryLists.add(grocery);
+
+    }
+
+    public void Menu(){
+
+
+
+    }
+
+    @Override
+    public void run() {
+        while(keepRunning) {
+            Menu();
+        }
 
     }
 }
