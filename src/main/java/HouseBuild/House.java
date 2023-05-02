@@ -18,12 +18,12 @@ public class House implements Runnable {
     private List<Task> taskList;
     private boolean keepRunning;
 
-    public House(){
+    public House(List<Grocery> groceryLists, List<Storage> storages, List<Chore> choresList, List<Task> taskList){
+        this.groceryLists = new ArrayList<Grocery>();
+        this.storages = new ArrayList<Storage>();
+        this.choresList = new ArrayList<Chore>();
+        this.taskList = new ArrayList<Task>();
 
-        groceryLists = new ArrayList<Grocery>();
-        storages = new ArrayList<Storage>();
-        choresList = new ArrayList<Chore>();
-        taskList = new ArrayList<Task>();
         keepRunning = true;
 
     }
