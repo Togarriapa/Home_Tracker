@@ -28,35 +28,6 @@ public class House implements Runnable {
 
     }
 
-    public void addStorage(){
-
-        storages.add(StorageFactory.getNewStorage());
-
-    }
-
-    public void addChore(){
-
-        choresList.add(ChoreFactory.getNewChore());
-
-    }
-
-    public void addTask(){
-
-        taskList.add(TaskFactory.getNewTask());
-
-    }
-
-    public void addGroceryToList(Grocery grocery){
-
-        groceryLists.add(grocery);
-
-    }
-
-    public void Menu(){
-
-
-    }
-
     @Override
     public void run() {
         while(keepRunning) {
@@ -64,4 +35,35 @@ public class House implements Runnable {
         }
 
     }
+    public void Menu(){
+
+
+    }
+
+
+    private void addStorage(){
+
+        storages.add(StorageFactory.getNewStorage());
+
+    }
+
+    private void addChore(){
+
+        choresList.add(ChoreFactory.getNewChore());
+
+    }
+
+    private void addTask(){
+
+        taskList.add(TaskFactory.getNewTask());
+
+    }
+
+    private void addGroceryToList(Grocery grocery){
+
+        groceryLists.add(grocery);
+
+    }
+
+
 }
