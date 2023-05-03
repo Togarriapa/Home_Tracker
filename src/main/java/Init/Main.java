@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Bootstrap start = new Bootstrap();
+        Init start = new Init();
 
     }
 
