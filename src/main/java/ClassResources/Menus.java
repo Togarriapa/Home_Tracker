@@ -5,7 +5,7 @@ public class Menus {
     public static String[] startMenu = {
 
             "LogIn",
-            "Reset Home"
+            //"Reset Home"  to implement in V2
 
     };
 
