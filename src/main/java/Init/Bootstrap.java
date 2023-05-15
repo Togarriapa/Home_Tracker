@@ -26,29 +26,21 @@ public class Bootstrap {
     private void runHouse() {
 
         if (firstStarted) {
-
-
             firstStart();
             runHouse();
 
         } else {
-
             startMenu();
 
         }
-
     }
 
     private void firstStart(){
-
         house = HouseFactory.createNewBlankHouse();
-
         setFirstStarted();
 
     }
-
     private void startMenu() {
-
         MenuInputScanner scanner = new MenuInputScanner(Menus.startMenu);
         scanner.setMessage("****************************************\n" + "Choose your option:");
 
@@ -59,7 +51,6 @@ public class Bootstrap {
     }
 
     private void getResultStartMenu(int answerIndex){
-
         switch (answerIndex) {
 
             case 1:
@@ -72,7 +63,6 @@ public class Bootstrap {
                 resetHome();
                 break;
         }
-
     }
 
     private void LogIn() {
@@ -90,11 +80,9 @@ public class Bootstrap {
             LogIn();
 
         }
-
     }
 
     private void resetHome() {
-
         house = HouseFactory.createNewBlankHouse();
 
     }
